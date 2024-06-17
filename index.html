@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test task</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="checklist">
+        <svg version="1.1" width="60" height="60" viewBox="0 0 100 100">
+          <circle
+            cx="50"
+            cy="50"
+            r="47"
+            fill="none"
+            stroke="#ffffff80"
+            stroke-width="1"
+          ></circle>
+          <path
+            d="M 50 3 A 47 47 0 0 1 55.8907 3.37061"
+            fill="none"
+            stroke="#fff"
+            stroke-width="3"
+            stroke-linecap="round"
+          ></path>
+          <text
+            x="50"
+            y="50"
+            fill="#fff"
+            font-size="30"
+            text-anchor="middle"
+            dominant-baseline="middle"
+            dy=".10em"
+          >
+            <tspan class="checklist__actions-count">0/7</tspan>
+          </text>
+        </svg>
+        <div class="checklist__actions-details">
+          <div class="checklist__chip">Чеклист</div>
+          <p class="checklist__actions-done">Выполнено: 0 из 7 действий</p>
+          <p class="checklist__actions-next">
+            Следующее действие: Созвониться с клиентом до 23.05.24 12:00
+          </p>
+        </div>
+        <button class="checklist__button">Открыть чеклист</button>
+      </div>
+    </main>
+  </body>
+</html>
